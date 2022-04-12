@@ -1,0 +1,32 @@
+* {
+	margin: 0 auto;
+	text-shadow: 2px 2px 8px silver;
+}
+.wrapper {
+	border: 1px solid silver;
+	border-radius: 4px;
+	width: 80%;
+	max-width: 600px;
+	text-align: center;
+	margin-top: 50px;
+}
+.cont {
+	margin-bottom: 20px;
+}
+input {
+	height: 20px;
+}
+button {
+	padding: 5px;
+}
+h1, h2, h3 {
+	margin: 20px;
+	padding: 20px;
+}
+p {
+	font-size: 20px;
+}
+span {
+	font-size: 20px;
+	color: green;
+}
