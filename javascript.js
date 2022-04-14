@@ -39,3 +39,12 @@ document.querySelector('.button-2').onclick = function () {
 	setInterval(timer, 1000);
 	this.setAttribute("disabled", "disabled");
 }
+
+
+// Секундомер
+
+function secMer (value) {
+	let minutes = Math.floor(value / 60000);
+	let seconds = ((value % 60000) / 1000).toFixed(0);
+	return (minutes < 10 ? '0' : '') + minutes + ":" + (seconds < 10 ? '0' : '') + seconds;
+}
