@@ -27,15 +27,18 @@ document.querySelector('.inp-range').oninput = function () {
 // Счётчик случайных чисел
 
 document.querySelector('.button-2').onclick = function () {
+
 	function timer () {
-	function getRandomIntInclusive(min, max) {
-    min = Math.ceil(min);
-    max = Math.floor(max);
-    return Math.floor(Math.random() * (max - min + 1)) + min;
+		function getRandomIntInclusive(min, max) {
+	    min = Math.ceil(min);
+	    max = Math.floor(max);
+	    return Math.floor(Math.random() * (max - min + 1)) + min;
 	}
+
 	let spanOne = document.querySelector('.span-1');
 	spanOne.innerHTML = getRandomIntInclusive(0, 100);
 	}
+
 	setInterval(timer, 1000);
 	this.setAttribute("disabled", "disabled");
 }
@@ -44,5 +47,5 @@ document.querySelector('.button-2').onclick = function () {
 // Секундомер
 
 document.querySelector('.button-3').onclick = function () {
-	
+		
 }
